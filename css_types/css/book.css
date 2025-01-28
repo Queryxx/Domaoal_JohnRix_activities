@@ -1,0 +1,51 @@
+.text {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.components {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(140, 0, 255);
+    margin-left: 15px;
+    border: 2px solid black;
+}
+
+.rectangle {
+    margin-left: 15px;
+    width: 70px;
+    height: 50px;
+    background-color: blue;
+    border: 2px solid black;
+
+}
+
+.square {
+    margin-left: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(41, 243, 0);
+    border: 2px solid black;
+}
+
+.oval {
+    margin-left: 15px;
+    height: 50px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: rgb(247, 29, 0);
+    border: 2px solid black;
+}
