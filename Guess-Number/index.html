@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess Number</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script>
+        const random =  50;
+        let tri = 5;
+        let t = 0;
+    </script>
     <script src="./js/guess.js"></script>
 </head>
 
@@ -13,9 +18,10 @@
     <div class="bdy">
         <h2 id="">Guess The Number</h2>
         <div class="com">
-            <input type="text" id="guess">
-            <button type="submit" onclick="checkguess()">Submit</button>
-           <div class="output"> <h3 id="ans">Answer</h3></div>
+            <input type="number" id="guess">
+            <button type="submit" onclick="checkNumber()">Submit</button>
+           <div class="output"> <h3 id="message">Answer</h3></div>
+           <div class="tries"> <h3 id="tries">Tries: 5</h3></div>
         </div>
 
     </div>
