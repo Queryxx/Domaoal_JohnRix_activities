@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid System</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-sm-12 col-md-1 col-lg-4">
+            <img src="./images/pic.jpg" width="200" class="rounded" alt="picture">
+            <img src="./images/pic.jpg" width="200" class="rounded-circle" alt="picture">
+            <img src="./images/pic.jpg" width="200" class="img-thumbnail" alt="picture">
+            <img src="./images/pic.jpg" width="200" class="img-fluid" alt="picture">
+        </div>
+
+        <div class="col-sm-12 col-md-10 col-lg-4 bg-warning">
+            <div class="card mb-3">
+                <div class="card-header">Header</div>
+                <div class="card-body">Content</div>
+                <div class="card-footer">Footer</div>
+            </div>
+            <div class="card" style="width: 400px;">
+                <img src="./images/pic.jpg" alt="janggis" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">John Rix </h4>
+                    <p class="card-text">Janggisdump@gmail.com</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-12 col-md-1 col-lg-4 ">
+        <button data-bs-toggle="collapse" data-bs-target="#demo" class="btn bg-secondary">Collapsible</button>
+            <div id="demo" class="collapse">
+                Hello World
+            </div>
+    </div>
+    <div class="alert alert-success">
+        <strong>Success</strong> Indicates a successful or positive action
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" type="button">Dropdown button</button>
+        <ul class="dropdown-menu">
+            <ul class="dropdown-item"><a href="#">The 1975</a></ul>
+            <ul class="dropdown-item"><a href="#">Kitchie Nadal</a></ul>
+            <ul class="dropdown-item"><a href="#">Bini</a></ul>
+        </ul>
+    </div>
+
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
