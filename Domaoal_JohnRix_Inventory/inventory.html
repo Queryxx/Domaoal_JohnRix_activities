@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/inventory.css">
+</head>
+<body>
+    <div class="container con mb-5 mt-5">
+        <div class="header">
+        <h1 class="text-center mt-4">Inventory System</h1>
+        <input type="text" placeholder="Search..." id="search" class="inp">
+        <button onclick="add()" class="btn mt-3 mb-3 btn-primary">Add</button>
+    </div>
+        <div class="container tbl">
+            <table class="table table-bordered table-striped">
+                <tr class="table-primary">
+                    <th>Product ID</th>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>The 1975</td>   
+                    <td>100</td>
+                    <td>50,000</td>
+                    <td><button class="btn bbtn btn-danger ">Delete</button>   <button class="btn bbtn btn-warning">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>The Weeknd</td>
+                    <td>99</td>
+                    <td>100,000</td>
+                    <td><button class="btn bbtn btn-danger ">Delete</button>   <button class="btn bbtn btn-warning">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Maroon 5</td>
+                    <td>99</td>
+                    <td>70,000</td>
+                    <td><button class="btn bbtn btn-danger ">Delete</button>   <button class="btn bbtn btn-warning">Edit</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Artic Monkeys</td>
+                    <td>98</td>
+                    <td>50,000</td>
+                    <td><button class="btn bbtn btn-danger ">Delete</button>   <button class="btn bbtn btn-warning">Edit</button></td>
+
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Cas</td>
+                    <td>95</td>
+                    <td>30,000</td>
+                    <td><button class="btn bbtn btn-danger">Delete</button>    <button class="btn bbtn btn-warning">Edit</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+        
+    <script src="./js/inventory.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
